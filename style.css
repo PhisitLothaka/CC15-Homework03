@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header { 
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 50px;
+}
+header a{
+    color: black;
+    font-weight: bold;
+}
+
+.mainprofile,.recent,.work,.f-contact{
+    padding: 10px 100px;
+}
+.mainprofile {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textpro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    min-width: 500px;
+    width: 50%;
+}
+.textpro button {
+    padding: 8px;
+    border: none;
+    background-color: #FF6464;
+    color: white;
+}
+.profile > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 12px solid rgba(190, 240, 247, 0.329);
+}
+
+/* recent */
+.recent {
+    background-color: rgba(210, 248, 253, 0.377);
+    height: 30vh;
+    margin: 0;
+}
+.re-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 8px 0px;
+}
+
+.re-header a {
+    color: rgb(1, 196, 255);
+}
+
+.re-main {
+    display: flex;
+    gap: 15px;
+}
+.re-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 300px;
+    width: 50%;
+    height: 22vh;
+    padding: 18px;  
+    background-color: white;
+}
+.re-con-detel{
+    font-size: small;
+    line-height: 150%;
+}
+/* end-recent */
+
+/* work */
+.work-img img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+.work-m {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.work-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    height: 150px;
+}
+.re-con-date p {
+    display: inline-block;
+}
+.re-con-date > p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 1px 8px;
+    border-radius: 40px;
+    font-size: 14px;
+} 
+.re-con-date > p:nth-child(2) {
+    margin-left: 14px;
+    color: #9b9b9b;
+}
+.work-text > .re-con-detel  {
+    min-width: 400px;
+}
+/* footer  */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+    margin: 10% 0px 6%;
+    gap: 8px;
+}
+footer p {
+    font-size: 12px;
+}
+.f-contact i {
+    font-size: 32px;
+
+}
+.f-contact {
+    display:flex ;
+    justify-content: space-between;
+    gap: 20px;
+}
+
